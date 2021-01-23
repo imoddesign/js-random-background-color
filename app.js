@@ -13,4 +13,5 @@ function randomBackgroundColor() {
   app.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
   app.appendChild(colorDiv).innerText = `rgb(${red}, ${green}, ${blue})`;
 }
+
 randomBackgroundColor();
